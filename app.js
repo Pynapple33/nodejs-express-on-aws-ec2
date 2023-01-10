@@ -7,16 +7,16 @@ app.get('/', (req, res) => {
 })
 
 app.get('/products', (req, res) => {
-    res.send([
-      {
-        productId: '101',
-        price: 100
-      },
-      {
-        productId: '102',
-        price: 150
-      }
-    ])
+  res.send([
+    {
+      productId: '101',
+      price: 100
+    },
+    {
+      productId: '102',
+      price: 150
+    }
+  ])
 })
 
 app.listen(port, ()=> {
